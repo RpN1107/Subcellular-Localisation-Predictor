@@ -33,15 +33,15 @@ This project predicts the **subcellular localisation** of human proteins using d
 
 ### Step-by-step
 
-1. **Run `1_Modifying_uniprot_data.ipynb`**
+1. **Run `1_modifying_uniprot_data.py`**
    - Input: `Data.tsv`
    - Output: `modified_data.csv` — cleaned and formatted dataset.
 
-2. **Run `2_Testing_Embedders.ipynb`**
+2. **Run `2_Testing_Embedders.py`**
    - Tests three different protein embedders on a stratified sample.
    - Compares their speed and memory usage.
 
-3. **Run `3_Protein_Classifier.ipynb`**
+3. **Run `3_protein_classifier.py`**
    - Trains a classification model on the entire dataset using **ESM2** embeddings.
    - Outputs performance metrics and evaluation plots.
 
