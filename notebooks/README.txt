@@ -1,10 +1,4 @@
-# -----------------------------DEEP LEARNING PROJECT----------------------------
-#Rithwik Nambiar 20244013
-#Sameera Miraj 20244016
-#Abhilasha Singh 20244001
-#Yash Kalyan Sakharkar 20244023
-#Rohan Ankit 20244014
-
+# SUBCELLULAR LOCALISATION PREDICTOR
 # ------------------------------------------------------------------------------
 # Objective: 
 # 1. To test different embedders for their speed and memory
@@ -37,3 +31,4 @@
 2. Use 2_Testing_Embedders.ipynb as test the performance of the embedders
 
 3. 3_Protein_Classifier.ipynb runs the classifier on the entire data
+
