@@ -73,7 +73,14 @@ protein_localisation_app/
 │   └── esm_embeddings.py   # ESM2 embedding generator
 ├── results/
 │   └── protein_classifier.pt  # Trained model
-└── Test.txt                # Sample FASTA file for testing
+├── Test.txt                # Sample FASTA file for testing
+└── notebooks/              # Research and experimental behind the project
+    └── 1_Modifying_uniprot_data
+    └── 2_Testing_Embedders
+    └── 3_Protein_Classifier
+    └── Data.tsv
+    └── README
+    └── Report.pdf          # Report on the rationale behind the project 
 ```
 
 ---
@@ -110,3 +117,4 @@ protein_localisation_app/
 * Add support for **more subcellular compartments**.
 * Batch FASTA upload with **progress bar**.
 * Integrate **3D structure-based features** for more accurate predictions.
+
