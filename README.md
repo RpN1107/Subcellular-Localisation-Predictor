@@ -110,9 +110,3 @@ protein_localisation_app/
 * Add support for **more subcellular compartments**.
 * Batch FASTA upload with **progress bar**.
 * Integrate **3D structure-based features** for more accurate predictions.
-
-## 📜 License
-
-This project is open-source and licensed under the [MIT License](LICENSE).
-
----
